@@ -39,3 +39,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.fluid.maintainer=Kelvium (unofficial) \
+    ro.fluid.cpu=MSM8996
+
