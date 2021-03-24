@@ -28,7 +28,7 @@ $(call inherit-product, vendor/fluid/config/common_full_phone.mk)
 PRODUCT_BRAND := LeEco
 PRODUCT_DEVICE := x2
 PRODUCT_MANUFACTURER := LeEco
-PRODUCT_NAME := lineage_x2
+PRODUCT_NAME := fluid_x2
 
 PRODUCT_GMS_CLIENTID_BASE := android-leeco
 
