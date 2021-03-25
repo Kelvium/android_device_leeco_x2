@@ -44,5 +44,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 58139029504
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
+# Fix for overriding commands for target
+BUILD_BROKEN_DUP_RULES := true
+
 # inherit from the proprietary version
 -include vendor/leeco/x2/BoardConfigVendor.mk
